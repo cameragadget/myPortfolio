@@ -1,0 +1,264 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One|Hind:300,500,600,700,300);
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans:400,100,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro);
+
+@font-face {
+    font-family: FuturaL;
+    src: url(fonts/FuturaNo2-B.otf);
+}
+@font-face {
+    font-family: FuturaLight;
+    src: url(fonts/FuturaLight1.otf);
+}
+@font-face {
+    font-family: Concourse;
+    src: url(fonts/Concourse.otf);
+}
+@font-face {
+    font-family: ConcourseH;
+    src: url(fonts/ConcourseH.otf);
+}
+@font-face {
+    font-family: FuturaM;
+    src: url(fonts/FuturaNo2-M.otf);
+}
+@font-face {
+    font-family: FuturaB;
+    src: url(fonts/FuturaBold.otf);
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+   background: url("../assets/background1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+main{
+  margin: 0 auto;
+}
+
+#home{
+  font-family: 'Poiret One', FuturaL;
+  text-align: center;
+}
+
+.raise{
+  margin-bottom:9%;
+}
+
+#cs {
+  opacity: 1;
+  color: #000;
+  font-family: ConcourseH, FuturaLight, 'Josefin Sans';
+  font-size: 83px;
+}
+
+#cs1 {
+  opacity: 0.8;
+  color: #000;
+  font-size: 41px;
+  margin:4%;
+}
+
+#cs2{
+  opacity: 0.8;
+  color: #000;
+  font-size: 34px;
+  margin:4%;
+}
+
+a.text{
+  color:#000;
+  text-decoration: none;
+  font-size:34px;
+  opacity:1;
+}
+a.text:hover{
+  color:#cccc99;
+  opacity:.9;
+  -moz-transition: all 1000ms;
+  -o-transition: all 1000ms;
+  -webkit-transition: all 1000ms ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+a.s-text{
+  color:#000;
+  text-decoration: none;
+  opacity:1;
+}
+a.s-text:hover{
+  color:#cccc99;
+  opacity:.9;
+  -moz-transition: all 1000ms;
+  -o-transition: all 1000ms;
+  -webkit-transition: all 1000ms ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+.links{
+  font-size:5em !important;
+  text-align: center;
+}
+
+.imac{
+  text-align: center;
+}
+
+
+#me {
+  width: 200px;
+  border-radius: 100px;
+}
+
+/*#me{
+  height:250px;
+  width:250px;
+  border-radius:500px;
+  opacity:1;
+  display:block;
+  margin-left:auto;
+  margin-right: auto;
+  border: 1px solid #000;
+  margin-top:10px;
+}*/
+
+#about-p{
+  margin-top:0px;
+}
+
+#about{
+  color:#000;
+  width:78%;
+  font-family: FuturaL, 'Josefin Sans';
+  font-size:1.4em;
+  font-weight:400;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#project{
+  width:90%;
+  margin:0 auto;
+}
+.tech{
+  display:block;
+  padding: 20px;
+}
+.pj{
+  display:block;
+  position:relative;
+}
+
+.pic{
+  display:block;
+  margin: 0 auto;
+  margin-bottom:-30px;
+  width: 820px;
+  height:480px;
+}
+
+.info{
+  color:#000;
+  width:88%;
+  font-family: 'Josefin Sans';
+  font-size:1.2em;
+  font-weight:400;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top:-20px;
+  text-decoration:none;
+  background: rgba(224,224,224,.8);
+  padding-top: 3px;
+  border-radius: 8px;
+}
+
+.detail{
+  color:#000;
+  font-family: FuturaL, 'Josefin Sans';
+  font-weight:400;
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration:none;
+}
+
+a.info{
+  color:#999966;
+  padding-top:-20px;
+  text-decoration: none;
+  opacity:1;
+}
+a.info:hover{
+  color:#000;
+  opacity:.8;
+  -moz-transition: all 1000ms;
+  -o-transition: all 1000ms;
+  -webkit-transition: all 1000ms ease-in-out;
+  transition: all 1s ease-in-out;
+}
+
+#connect{
+  color:#000;
+  font-family: FuturaL, 'Josefin Sans', sans-serif;
+  font-size:2em;
+  text-align: center;
+  position:relative;
+}
+
+#li, #em, #gh {
+  padding-left:30px;
+  padding-right:30px;
+}
+
+
+@media only screen
+and (max-device-width : 1010px)
+and (orientation : portrait) {
+  #cs {
+    font-size: 5em;
+  }
+
+  #cs1, #cs2 {
+    font-size: 3em;
+  }
+
+  #about{
+    font-size:2.6em;
+  }
+
+  #project{
+    width:99%;
+    margin:0 auto;
+  }
+
+  .info{
+    font-size:2em;
+  }
+
+  .detail{
+    font-size: 1.3em;
+  }
+
+  #connect{
+    font-size:2.5em;
+  }
+}
+
+@media (min-width: 1440px){
+  #about{
+    width:55%;
+  }
+
+  .info{
+    width:60%;
+  }
+
+}
